@@ -1,5 +1,5 @@
 {
-    "name": "sami/sami",
+    "name": "edos-io/sami",
     "type": "application",
     "description": "Sami, an API documentation generator",
     "keywords": ["phpdoc"],
@@ -7,8 +7,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Fabien Potencier",
-            "email": "fabien@symfony.com"
+            "name": "Fabien Potencier with contributions by edos.io",
+            "email": "jeremy@edos.io"
         }
     ],
     "require": {
@@ -27,9 +27,9 @@
     "autoload": {
         "psr-4": { "Sami\\": "Sami/" }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.0-dev"
+      "packages": {
+        "edos-io/sami": {
+          "version": "dev-master"
         }
     },
     "bin": ["sami.php"]
