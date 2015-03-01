@@ -4,8 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+<<<<<<< 3a46b98e2fa4d4819018e3767ba6346bfed92957
     "hash": "9fb333eb15a183b5816067452f1f92f7",
     "content-hash": "e4000561f35e8ea228bb3fd3826fd2f8",
+=======
+    "hash": "5c451dd3e73724250d935d91739882c0",
+>>>>>>> package config
     "packages": [
         {
             "name": "blackfire/php-sdk",
@@ -63,6 +67,7 @@
         },
         {
             "name": "michelf/php-markdown",
+<<<<<<< 3a46b98e2fa4d4819018e3767ba6346bfed92957
             "version": "1.6.0",
             "source": {
                 "type": "git",
@@ -73,6 +78,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/michelf/php-markdown/zipball/156e56ee036505ec637d761ee62dc425d807183c",
                 "reference": "156e56ee036505ec637d761ee62dc425d807183c",
+=======
+            "version": "1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/e1aabe18173231ebcefc90e615565742fc1c7fd9",
+                "reference": "e1aabe18173231ebcefc90e615565742fc1c7fd9",
+>>>>>>> package config
                 "shasum": ""
             },
             "require": {
@@ -95,14 +112,21 @@
             ],
             "authors": [
                 {
+                    "name": "John Gruber",
+                    "homepage": "http://daringfireball.net/"
+                },
+                {
                     "name": "Michel Fortin",
                     "email": "michel.fortin@michelf.ca",
                     "homepage": "https://michelf.ca/",
                     "role": "Developer"
+<<<<<<< 3a46b98e2fa4d4819018e3767ba6346bfed92957
                 },
                 {
                     "name": "John Gruber",
                     "homepage": "https://daringfireball.net/"
+=======
+>>>>>>> package config
                 }
             ],
             "description": "PHP Markdown",
@@ -110,7 +134,11 @@
             "keywords": [
                 "markdown"
             ],
+<<<<<<< 3a46b98e2fa4d4819018e3767ba6346bfed92957
             "time": "2015-12-24 01:37:31"
+=======
+            "time": "2015-03-01 12:03:08"
+>>>>>>> package config
         },
         {
             "name": "nikic/php-parser",
